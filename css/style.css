@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'hk_groteskitalic';
+  src: url('./hkgrotesk-italic.woff') format('woff2'),
+       url('./hkgrotesk-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'hk_grotesksemibold_italic';
+  src: url('hkgrotesk-semibolditalic.woff2') format('woff2'),
+       url('hkgrotesk-semibolditalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* html, body {
+  height: 100%;
+  min-height: 100%;
+} */
+
+/* body {
+  background: url(/Users/coreycolligan/Development/learn-prework/hackjob-website/images/backgrounds/room3.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+
+
+.wrapper {
+  margin: 0 auto;
+  width: 60%;
+  padding-bottom: 40px;
+  padding: 20px;
+  
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.one {
+  background: #efdefe;
+}
+.two {
+  background: #a3f3d3;
+}
+.three {
+  background: #0bbaa0;
+}
+.four {
+  background: #00dfdf;
+}
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* #content {
+  padding: 20px;
+  background: rgba(255,255,255,.50); */
+
+h1 { font-family: 'hk_grotesksemibold_italic';
+  font-size: 10em;
+  margin-bottom: 0;
+  color: red; 
+  line-height: .85em;
+  /* height: 2em;
+    overflow: hidden;   */
+  
+}
+
+scrolls { 
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height:100vh;
+
+   white-space:nowrap
+} */
+
+/* h1, h2 {
+  font-family: 'Gabriela', serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 3.5em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: .5em;
+} */
+
+/* h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  margin-top: .5em;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 1em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1042px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 784px) {
+  body {
+    font-size: 120%;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .wrapper {
+    width: 95%;
+  }
+} */
